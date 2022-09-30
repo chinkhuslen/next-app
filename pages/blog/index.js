@@ -1,4 +1,9 @@
+import NavBar from "../../component/navigation";
 const Blog = () => {
-  return <h1>Blog page</h1>;
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 };
 export default Blog;
